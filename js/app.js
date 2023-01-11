@@ -30,4 +30,4 @@ function divide(a, b) {
 console.log(multiply(4, 7, 6, 9));
 console.log(multiply(435, 265, 4, 5));
 
-console.log(divide(10, 21)); 
+console.log(divide(10, 21));    
