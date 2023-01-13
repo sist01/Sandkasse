@@ -67,9 +67,9 @@ console.log(20 > 10);
 console.clear();
 
 if (10 > 5) {
-    alert('10 er større enn 5');
+    //alert('10 er større enn 5');
 } else {
-    alert('nei 10 er mindre enn 5'); 
+    //alert('nei 10 er mindre enn 5'); 
 }
 //
 console.clear();
@@ -94,11 +94,60 @@ function checOpeningTime() {
 
     //
     if(timeNow > openingTime && timeNow < closingTime) {
-        alert('Butikken er åpen!');
+        //alert('Butikken er åpen!');
 
     } else {
-        alert('Butikken er stengr');
+        //alert('Butikken er stengr');
     } 
 }
 
 checOpeningTime();
+
+///////////////////////////////////////////////////////////////////////////////
+
+// Bytte mellom darkmode og lightmode
+
+// Mode value
+
+    function switchMode(status) {
+        if(status === 'light') {
+            alert ('Du valgte lghtmode');
+        } else {
+            alert('Du er i darkemode')
+        }
+};
+
+const myStatus = 'light';
+let oneSattus = 'light';
+
+//switchMode (oneSattus)
+
+////////////////////////////////////////////////////////////////////////////
+
+// kalkulere omkrets av sirkel ved diameter verdi
+
+function calculateCircle(diameter) {
+
+    // 2PIr // diameter*PI 
+
+    const pi = Math.PI;
+    const result = diameter * pi
+    console.log(Math.ceil(result));
+
+} 
+
+calculateCircle(13);
+
+
+////////////////////////////////////////////////////////////////////////
+
+// lag en funkjson som console.log areal av en rektangel
+// ved å gi høyde og bredde verdi
+
+function calculateRektangle (areal) {
+
+    console.log(areal);
+
+}
+
+calculateRektangle(5 * 3);
