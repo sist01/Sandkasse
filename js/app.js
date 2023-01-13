@@ -139,10 +139,11 @@ function calculateCircle(diameter) {
 calculateCircle(13);
 
 
-////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////
 
-// lag en funkjson som console.log areal av en rektangel
+// lag en funkjson som console.log areal av en rektangel 
 // ved å gi høyde og bredde verdi
+// min
 
 function calculateRektangle (areal) {
 
@@ -151,3 +152,26 @@ function calculateRektangle (areal) {
 }
 
 calculateRektangle(5 * 3);
+
+//////////////////////////////////////////////////////////////////////////////
+/// carlo
+
+function calculateRektangle1(width, height) {
+    console.log((width * height) / 2)
+}
+
+
+calculateRektangle1(13, 7);
+
+
+
+///////////////////////////////////////////////////////////////////////////
+
+
+
+function calculateTriangle(width, height) {
+    console.log((width * height) / 2)
+
+}
+
+calculateTriangle(22, 43);
