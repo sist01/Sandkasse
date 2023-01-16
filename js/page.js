@@ -36,7 +36,7 @@ function plotName() {
 console.clear();
 ///////////////////////////////////////////////////////////////////////////////
 
-const value1 = prompt('skriv her først verdi');
+/* const value1 = prompt('skriv her først verdi');
 console.log(value1);
 const value2 = prompt('skriv her andre verdi');
 console.log(value2);
@@ -53,9 +53,8 @@ if(action === 'multiply') {
 if(action === 'divide') {
     console.log(value1/value2); 
     resultElement.textContent = 'resultat: ' + (value1 / value2);  
-}
+} */
 
-console.clear();
-////////////////////////////////////////////////////////////////////////////////
-
+console.clear(); 
+//////////////////////////////////////////////////////////////////////////////////
 
