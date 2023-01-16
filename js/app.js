@@ -175,3 +175,31 @@ function calculateTriangle(width, height) {
 }
 
 calculateTriangle(22, 43);
+
+
+/////////////////////////////////////////////////////////////////////////// 16.01
+    console.clear();
+
+    console.log(document);
+
+    const section1Element = document.querySelector('section');
+    console.log(section1Element); 
+
+    const headerElement = document.querySelector('header');   // via tag navn
+    console.log(headerElement);
+
+    //const pElement = document.querySelectorAll('div p');   // children og parent
+    //console.log(pElement);
+
+// querySelector med klassenavn
+
+    const p3Element = document.querySelector('.p-3');
+    console.log(p3Element);
+
+// querySelector med id
+
+    const p4Element = document.querySelector('#p-4');
+    console.log(p4Element);
+
+    const p4ElementById = document.getElementById('p-4');
+    console.log(p4ElementById); 
