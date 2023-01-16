@@ -196,6 +196,8 @@ calculateTriangle(22, 43);
     const p3Element = document.querySelector('.p-3');
     console.log(p3Element);
 
+    p3Element.textContent = 'we change this to p-3000'
+
 // querySelector med id
 
     const p4Element = document.querySelector('#p-4');
@@ -203,3 +205,9 @@ calculateTriangle(22, 43);
 
     const p4ElementById = document.getElementById('p-4');
     console.log(p4ElementById); 
+
+    // querySelctorAll
+
+    const allPElement =document.querySelectorAll('p');
+    console.log(allPElement);
+
