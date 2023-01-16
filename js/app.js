@@ -211,3 +211,9 @@ calculateTriangle(22, 43);
     const allPElement =document.querySelectorAll('p');
     console.log(allPElement);
 
+
+
+
+
+
+   
