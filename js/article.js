@@ -31,11 +31,24 @@ bodyElement.appendChild(pElement);
 const ulElement = document.createElement('ul');
 
 // Loop med for
-for(let i = 0; i <= 16; i++) {
+/*  for(let i = 0; i <= 24; i++) {
     console.log(i);
     const liElement = document.createElement('li');
     liElement.textContent = 'item' + i;
-    ulElement.appendChild(liElement)
-} 
+    ulElement.appendChild(liElement);
+    for (let i = 2; i <= 10; i++); 
+        if (i % 2 == 0);
+      
+} */
+
 console.log(ulElement)
 bodyElement.appendChild(ulElement);
+
+for (i = 1; i < 25; i++) {
+    if (i % 2 === 0) {
+    const liElement = document.createElement('li');
+    liElement.textContent = 'item' + i;
+    ulElement.appendChild(liElement);
+      console.log(i);  
+    }
+  }
