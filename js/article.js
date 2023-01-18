@@ -18,10 +18,24 @@ const pElement = document.createElement('p');
 pElement.textContent = `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
 Id obcaecati quasi doloremque, distinctio dolor repellendus 
 ducimus porro necessitatibus eligendi, odio eius, quo quam 
-consequuntur molestiae? Tenetur ex provident unde cum?`
+consequuntur molestiae? Tenetur ex provident unde cualisa?`
 
 // append alle elementer inn i hoved container
 bodyElement.appendChild(h1Element);
 bodyElement.appendChild(imgElement);
 bodyElement.appendChild(pElement);
 
+// Listen
+
+// Lage hoved container ul (unordered list)
+const ulElement = document.createElement('ul');
+
+// Loop med for
+for(let i = 0; i <= 16; i++) {
+    console.log(i);
+    const liElement = document.createElement('li');
+    liElement.textContent = 'item' + i;
+    ulElement.appendChild(liElement)
+} 
+console.log(ulElement)
+bodyElement.appendChild(ulElement);
