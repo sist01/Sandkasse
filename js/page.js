@@ -73,3 +73,8 @@ h2ContainerCreate.textContent = 'titel til div container';
 
 const boxContainerElement = document.querySelector('.container');
 boxContainerElement.appendChild(h2ContainerCreate); 
+
+boxContainerElement.prepend(h2ContainerCreate);
+
+const whoIsParent = h2ContainerCreate.parentNode;
+console.log(whoIsParent);
