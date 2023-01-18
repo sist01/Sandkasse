@@ -16,7 +16,7 @@ changeImg();
 function changeImg() {
 const imgElement = document.querySelector('img')
 console.log(imgElement);
-imgElement.src = './assets/Image1.jpg';
+imgElement.src = './assets/Image2.jpg';
 imgElement.width = '800';
 //imgElement.style = 'width: 360px';
 //imgElement.style.width = '200'; 
@@ -56,5 +56,20 @@ if(action === 'divide') {
 } */
 
 console.clear(); 
-//////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////// 18.01
 
+const pElementCreate = document.createElement('p');
+pElementCreate.textContent = 'dette <p> bygger vi i JavaScript';
+console.log(pElementCreate); 
+
+
+const parentBodyElement = document.querySelector('body'); 
+parentBodyElement.append(pElementCreate);
+
+console.log(parentBodyElement); 
+
+const h2ContainerCreate = document.createElement('h2');
+h2ContainerCreate.textContent = 'titel til div container';
+
+const boxContainerElement = document.querySelector('.container');
+boxContainerElement.appendChild(h2ContainerCreate); 
