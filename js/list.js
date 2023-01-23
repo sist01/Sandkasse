@@ -44,7 +44,7 @@ do {
     const bodyElement = document.querySelector('body');
     const ulElement = document.createElement('ul');
     aElement.setAttribute('target', '_blank')
-    
+
     if(i === 1)
     aElement.setAttribute('href', 'https://www.google.no');
     aElement.textContent = 'Google';
@@ -68,3 +68,7 @@ do {
 
 };
 initList();
+
+////////////////////////////////////////////////////////////////////////////
+
+
