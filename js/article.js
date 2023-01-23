@@ -46,9 +46,22 @@ bodyElement.appendChild(ulElement);
 
 for (i = 1; i < 25; i++) {
     if (i % 2 === 0) {
-    const liElement = document.createElement('li');
-    liElement.textContent = 'item' + i;
-    ulElement.appendChild(liElement);
-      console.log(i);  
+        const liElement = document.createElement('li');
+        liElement.textContent = 'item' + i;
+        ulElement.appendChild(liElement);
+        console.log(i);  
     }
   }
+
+  //////////////////////////////////////////////////////////////// 23.01
+
+ /*  let i=1;
+  do {
+    console.log(i)
+    1 = i+ 1;
+  } while (i <= 18)
+  console.log(ulElement)
+  bodyElement.appendChild(ulElement);
+ */
+
+  
