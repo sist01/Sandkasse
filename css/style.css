@@ -18,3 +18,11 @@ header nav ul {
     display: flex;
     gap: 10px;
 }
+
+.p-element {
+    color: rgb(220, 43, 43);
+}
+
+.new-class {
+    color: rgb(207, 59, 220);
+}
