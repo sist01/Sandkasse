@@ -34,3 +34,37 @@ function initList() {
 
 };
 initList();
+
+function initList() {
+
+let i = 1;
+do { 
+    const liElement = document.createElement('li');
+    const aElement = document.createElement('a');
+    const bodyElement = document.querySelector('body');
+    const ulElement = document.createElement('ul');
+    aElement.setAttribute('target', '_blank')
+    
+    if(i === 1)
+    aElement.setAttribute('href', 'https://www.google.no');
+    aElement.textContent = 'Google';
+
+    if(i === 2)
+    aElement.setAttribute('href', 'https://www.kristiana.no');
+    aElement.textContent = 'Kristiania';
+    
+    
+    
+    
+    liElement.appendChild(aElement);
+    ulElement.appendChild(liElement);
+    
+
+    i++;
+    } while (i <= 6);
+
+   
+   bodyElement.appendChild(ulElement);
+
+};
+initList();
