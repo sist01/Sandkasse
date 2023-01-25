@@ -1,0 +1,9 @@
+{
+    "vscode-pets.petColor": "brown",
+    "vscode-pets.petSize": "nano",
+    "vscode-pets.petType": "fox",
+    "vscode-pets.theme": "none",
+    "vscode-pets.throwBallWithMouse": true,
+    "editor.snippetSuggestions": "inline",
+    "vscode-pets.position": "explorer"
+}

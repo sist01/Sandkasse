@@ -43,6 +43,7 @@ function calculate(value1, value2) {
 
 //
 
+function initEvent(){
 //hent input element med sin egen verdi når man klikker på knappen
 const inputElement = document.getElementById('firstName');
 
@@ -52,14 +53,20 @@ const buttonElement = document.getElementById('getName');
 //hente fra html resultat
 const resultElement = document.getElementById('result');
 
-buttonElement.addEventListener('click', () => {
-    resultElement.textContent = inputElement.value;
-})
+buttonElement.addEventListener('click', addName);
 
 window.addEventListener('keyup', (event) => {
     if(event.key === 'Enter') {
-        const liElement = document.createElement('li');
+        addName();
+    }
+}) ;
+
+function addName() {
+    const liElement = document.createElement('li');
+    if(inputElement.value !=='') {
         liElement.textContent = inputElement.value;
         resultElement.appendChild(liElement);
     }
-})
+}}
+
+initEvent();
