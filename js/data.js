@@ -111,3 +111,25 @@ employees.forEach((employee) => {
 });
 
 bodyElement.appendChild(ulElement)
+
+// map
+const employeeMail = employees.map(person => {
+    return {
+        mail: person.mail
+    }
+});
+
+console.log(employeeMail);
+
+// filter
+/* const nationalityEmployees = employees.filter(employee => {
+    return employee.person.nationality === 'Norway';
+});
+
+console.log(nationalityEmployees); */
+
+const filterDepEmployees = employees.filter(
+    employee => employee.department.includes('student')
+    );
+
+    console.log(filterDepEmployees);
